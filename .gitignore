@@ -1,0 +1,28 @@
+# 构建产物（skill 打包生成的 zip，可随时由 SKILL.md + references/ + assets/ 重建）
+dist/
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python（skill-creator 校验/打包脚本产生的缓存）
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 日志与临时文件
+*.log
+*.tmp
+
+# 本地 agent 记忆（个人工作笔记，不入公开仓库）
+.workbuddy/
